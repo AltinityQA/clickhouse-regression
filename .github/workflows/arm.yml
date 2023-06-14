@@ -30,7 +30,7 @@ env:
         
 jobs:
   example:
-    runs-on: self-hosted, arm
+    runs-on: self-hosted, arm64
     env:
       SUITE: example
     steps:

@@ -398,7 +398,7 @@ jobs:
           path: ${{ env.artifact_paths}}
 
   example:
-    runs-on: self-hosted
+    runs-on: [self-hosted, x86_64]
     env:
       SUITE: example
     if: ${{ inputs.suite == 'all' || inputs.suite == 'example' }}

@@ -38,7 +38,7 @@ env:
     
 jobs:
   example:
-    runs-on: [self-hosted, x86_64]
+    runs-on: [self-hosted]
     env:
       SUITE: example
     steps:

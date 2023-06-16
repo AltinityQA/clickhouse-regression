@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -x
+whoami
 sudo rm -rf /var/lib/apt/lists/*
 sudo rm -rf /var/cache/debconf
 sudo rm -rf /tmp/*

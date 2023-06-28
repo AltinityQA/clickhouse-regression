@@ -11,4 +11,5 @@ jobs:
   list-online-runners:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ env.GITHUB_SHA }}
+      - run: echo 1
+      - run: echo ${GITHUB_SHA}

@@ -30,7 +30,7 @@ env:
         
 jobs:
   example:
-    runs-on: [altinity-self-hosted, altinity-arm64]
+    runs-on: [self-hosted, arm64, Altinity]
     env:
       SUITE: example
     steps:

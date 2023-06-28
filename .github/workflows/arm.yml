@@ -30,7 +30,7 @@ env:
         
 jobs:
   example:
-    runs-on: [altinity-arm64]
+    runs-on: [altinity-arm64, builder, aaa]
     env:
       SUITE: example
     steps:
